@@ -106,7 +106,12 @@ describe('runtime manager unit tests', () => {
         type: Request.RequestType.TEXT,
         payload: 'hi',
       };
-      const context = { state, request, versionID: VERSION_ID, data: { api: { getProgram: 'api' }, config: { stopTypes: ['t1', 't2'] } } } as any;
+      const context = {
+        state,
+        request,
+        versionID: VERSION_ID,
+        data: { api: { getProgram: 'api' }, config: { stopTypes: ['t1', 't2'] } },
+      } as any;
       expect(await runtimeManager.handle(context)).to.eql({
         state: rawState,
         trace,
@@ -258,7 +263,13 @@ describe('runtime manager unit tests', () => {
         type: Request.RequestType.INTENT,
         payload: {},
       };
-      const context = { state, userID: 'someUserId', request, versionID: VERSION_ID, data: { api: { getProgram: 'api' } } } as any;
+      const context = {
+        state,
+        userID: 'someUserId',
+        request,
+        versionID: VERSION_ID,
+        data: { api: { getProgram: 'api' } },
+      } as any;
       expect(await runtimeManager.handle(context)).to.eql({
         state: rawState,
         trace,
