@@ -1261,10 +1261,10 @@
   dependencies:
     "@voiceflow/base-types" "^2.5.5"
 
-"@voiceflow/commitlint-config@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@voiceflow/commitlint-config/-/commitlint-config-1.1.0.tgz#736b9e099830834b4f85998242d4cff6b1968dfd"
-  integrity sha512-5bBAyKsjT7R/mDBDpfvS9l04srf2DfAMJnhKlJFkuSyFM3qm/by7k5DQxLMrZySKOKxbxhykaTM1zm7/e8/yzg==
+"@voiceflow/commitlint-config@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@voiceflow/commitlint-config/-/commitlint-config-1.1.1.tgz#cb3cfa6807c77ad2932d400ac9fbe0f0c8853644"
+  integrity sha512-/HIWnPfiJ8PJ7FuvrOoYfLj1qc3eep+FvIITjG6tOQx2HxO6g1a44MjlFWJsyhfLHwqhkDE+fZbPdeSBPRN/nQ==
   dependencies:
     "@commitlint/config-conventional" "^12.1.4"
 
@@ -1331,10 +1331,10 @@
     "@voiceflow/base-types" "^2.5.5"
     "@voiceflow/voice-types" "^2.1.11"
 
-"@voiceflow/git-branch-check@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@voiceflow/git-branch-check/-/git-branch-check-1.2.0.tgz#773e07c5e4558283b8f94a0e7e05b88e637bc3d0"
-  integrity sha512-t+c50h+brJHwXbPDNoOT9Q2WYKWGd7usHNsp0B8qI0IBJLdH/CKTAsV+4gxO2IS8jMXVNxcyE2r25tHO3zRsFQ==
+"@voiceflow/git-branch-check@1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@voiceflow/git-branch-check/-/git-branch-check-1.2.1.tgz#66c9e8884fa4961e38ac5d6efc682171e0501b94"
+  integrity sha512-dtbd18TKASj0AKdDQmmpy3ZxIcv0vQDhP3XYIHGl/VuDJjmXUUaYog+ENZ6u7ow9OkJa2bKk5VmRyJhHivM4tg==
   dependencies:
     current-git-branch "^1.1.0"
 
@@ -1352,10 +1352,10 @@
     nanoid "^3.1.20"
     pino-http "5.3.0"
 
-"@voiceflow/metrics@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@voiceflow/metrics/-/metrics-1.1.0.tgz#7dc7787b8e84ee11516e321a47989441b45435ed"
-  integrity sha512-6lKC12c+yRK3Omeqjx18eHrFunTlMbFQeRXmOD99xtQPm0t7VpbwX1kEhAY1yUNkV58ALVjYotPx366UgXZE+g==
+"@voiceflow/metrics@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@voiceflow/metrics/-/metrics-1.1.1.tgz#bfec1c2154a55b41a1fc8f8bc5fac26dde87a5c7"
+  integrity sha512-ufcW6xPiCBX8tmCYJgwaG9yHzuf8lapYquXiQwHCqi0bxCO3exgimstNasvkn0MUBIeejFOwXhnN9E3VFzLveQ==
   dependencies:
     "@opentelemetry/api" "1.0.3"
     "@opentelemetry/api-metrics" "0.26.0"
@@ -1407,10 +1407,10 @@
     quick-format-unescaped "^4.0.1"
     sonic-boom "^1.0.2"
 
-"@voiceflow/prettier-config@1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@voiceflow/prettier-config/-/prettier-config-1.0.5.tgz#307caf65040ae0c0539ecb8531b9e403381f11ab"
-  integrity sha512-yM35E7UI0fD8yMgL7JImljvMLZVU+jCz/latc2s2e7Nlbr9kiMpO0FArjkaXVIghhcUeQ0y04lsFUHRu3kMzmA==
+"@voiceflow/prettier-config@1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@voiceflow/prettier-config/-/prettier-config-1.0.6.tgz#c06ba240703eaed4516bc8719a23604a37ff6d83"
+  integrity sha512-Q1VChvhTYGw/jtg2YBrFwd9wjqogvQaSppTrqNaOvmq9tgqLOPgZC20zBAwbM5JX6UPC6bKXN0qit0LLddC/kw==
 
 "@voiceflow/verror@^1.1.0":
   version "1.1.0"
